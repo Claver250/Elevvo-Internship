@@ -91,11 +91,11 @@ All responses use `Content-Type: application/json; charset=utf-8`.
 Use `-i` to see the status line and headers.
 
 ```bash
-curl -i localhost:3000/
-curl -i "localhost:3000/api/users?page=1"
-curl -i localhost:3000/api/health
-curl -i localhost:3000/nope
-curl -i -X POST localhost:3000/api/users
+curl -i localhost:4000/
+curl -i "localhost:4000/api/users?page=1"
+curl -i localhost:4000/api/health
+curl -i localhost:4000/nope
+curl -i -X POST localhost:4000/api/users
 ```
 
 Screenshots of these runs are in the `screenshots/` folder.
